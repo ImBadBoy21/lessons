@@ -22,7 +22,6 @@ def paste_film(d_film):
 
 def delete_film(d_film):
     if your_films.count(d_film):
-        print('Зашли в условие')
         your_films.remove(d_film)
     else:
         print('Этого фильма итак нет в вашем топе фильмов.')
